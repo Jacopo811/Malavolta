@@ -3,14 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malavolta</title>
+
+    <title>Malavolta Research & Development</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #000000;
+            color: #f3ead7;
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .home {
+            width: 100%;
+            max-width: 1200px;
+            padding: 60px 30px;
+        }
+
+        .logo {
+            width: min(420px, 80vw);
+            height: auto;
+            display: block;
+            margin: 0 auto 45px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(32px, 5vw, 64px);
+            font-weight: normal;
+            letter-spacing: 3px;
+            line-height: 1.15;
+        }
+
+        .subtitle {
+            margin-top: 22px;
+            font-size: clamp(18px, 2.5vw, 28px);
+            letter-spacing: 1px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Malavolta</h1>
+    <main class="home">
 
-    <p>Benvenuto nel mio sito.</p>
+        <img
+            src="logo.jpeg"
+            alt="Malavolta Research & Development"
+            class="logo"
+        >
+
+        <h1>
+            MALAVOLTA RESEARCH &amp; DEVELOPMENT
+        </h1>
+
+        <p class="subtitle">
+            invenzioni e progetti rivoluzionari
+        </p>
+
+    </main>
 
 </body>
 </html>
