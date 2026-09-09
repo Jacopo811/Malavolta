@@ -15,8 +15,8 @@
             margin: 0;
             min-height: 100vh;
             background: #000000;
-            color: #f3ead7;
-            font-family: "Times New Roman", Times, serif;
+            color: #d8ccb2;
+            font-family: "Oriya MN", "Times New Roman", serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,29 +25,36 @@
 
         .home {
             width: 100%;
-            max-width: 1200px;
-            padding: 60px 30px;
+            max-width: 1400px;
+            padding: 50px 30px;
         }
 
         .logo {
-            width: min(420px, 80vw);
+            width: min(700px, 90vw);
             height: auto;
             display: block;
-            margin: 0 auto 45px;
+            margin: 0 auto 50px;
+
+            /* Avvicina il bianco del logo all'avorio del sito */
+            filter: sepia(15%) saturate(45%) brightness(88%);
         }
 
         h1 {
             margin: 0;
-            font-size: clamp(32px, 5vw, 64px);
+            font-size: clamp(38px, 6vw, 78px);
             font-weight: normal;
-            letter-spacing: 3px;
+            letter-spacing: 4px;
             line-height: 1.15;
+            color: #d8ccb2;
         }
 
         .subtitle {
-            margin-top: 22px;
-            font-size: clamp(18px, 2.5vw, 28px);
+            margin-top: 24px;
+            margin-bottom: 0;
+            font-size: clamp(20px, 2.8vw, 32px);
             letter-spacing: 1px;
+            color: #d8ccb2;
+            font-weight: normal;
         }
     </style>
 </head>
@@ -63,7 +70,7 @@
         >
 
         <h1>
-            MALAVOLTA RESEARCH &amp; DEVELOPMENT
+            RESEARCH &amp; DEVELOPMENT
         </h1>
 
         <p class="subtitle">
